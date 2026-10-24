@@ -1,0 +1,159 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #252a34;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    margin-top: 0;
+    color: #304fc4;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #cbd0d9;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 4px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4263eb;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #304fc4;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 3px solid #f0a202;
+    outline-offset: 3px;
+}
+
+#counter {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#textPreview,
+#keyResult {
+    min-height: 30px;
+    overflow-wrap: anywhere;
+}
+
+figure {
+    margin: 20px 0 0;
+}
+
+#displayImage {
+    display: block;
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#carImage {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+figcaption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#interactiveCard {
+    padding: 20px;
+    border: 2px solid #cbd0d9;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: background-color 0.2s, border-color 0.2s;
+    cursor: pointer;
+}
+
+#interactiveCard.highlight {
+    background-color: #e3edff;
+    border-color: #4263eb;
+}
+
+#interactiveCard:focus-visible {
+    outline: 3px solid #f0a202;
+    outline-offset: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: #666666;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    section {
+        padding: 16px;
+    }
+}
