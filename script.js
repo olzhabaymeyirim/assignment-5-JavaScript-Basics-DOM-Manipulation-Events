@@ -76,17 +76,17 @@ const imageCaption = document.getElementById("imageCaption");
 
 const cars = {
     bmw: {
-        src: "images/bmw.jpg",
+        src: "bmw.jpg",
         alt: "BMW car",
         caption: "BMW — a well-known German car brand."
     },
     mercedes: {
-        src: "images/mercedes.jpg",
+        src: "mercedes.jpg",
         alt: "Mercedes-Benz car",
         caption: "Mercedes-Benz — a German luxury car brand."
     },
     toyota: {
-        src: "images/toyota.jpg",
+        src: "toyota.jpg",
         alt: "Toyota car",
         caption: "Toyota — a popular Japanese car brand."
     }
